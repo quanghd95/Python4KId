@@ -1,1 +1,4 @@
-print("Hello world")
+
+Hello = "Hello"
+World = "World"
+print(Hello, World)
