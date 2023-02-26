@@ -36,7 +36,7 @@ window.addEventListener('load', function() {
   button3.style.right = "0px";
 
   button3.addEventListener("click", function() {
-  alert("nguyenvukyanh2904@gmail.com/nNezorf#1594");
+  alert("nguyenvukyanh2904@gmail.com\nDandellion Puffball#1594");
   
 
   });
@@ -55,4 +55,13 @@ window.addEventListener('load', function() {
       divtest.innerHTML = "Hello world"
     }
   })
+  const btn5 = document.createElement('button')
+  btn5.style.position = "fixed";
+  btn5.style.bottom = "130px";
+  btn5.style.right = "0px";
+  btn5.innerHTML = "Close tab"
+  document.body.appendChild(btn5);
+  btn5.addEventListener("click", function(){
+    window.close();
+    });
 });
