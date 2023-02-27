@@ -48,8 +48,6 @@ img {
 img:hover {
   filter: grayscale(0%);
 }
-
-
 #theme-toggle-btn{
 
   bottom: 300px;
