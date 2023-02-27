@@ -48,6 +48,196 @@
     <input type="submit" value="Submit">
   </form>
 </div>
+<style>
+	/* CSS for the buttons */
+	#btn-group {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 9999;
+	}
+	.btn {
+		margin: 5px;
+		padding: 10px 15px;
+		border-radius: 5px;
+		color: white;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.btn-1 {
+		background-color: #ff9800;
+	}
+	.btn-2 {
+		background-color: #4CAF50;
+	}
+	.btn-3 {
+		background-color: #2196F3;
+	}
+	.btn-4 {
+		background-color: #9C27B0;
+	}
+	.btn-5 {
+		background-color: #607D8B;
+	}
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 buttons</title>
+	<style>
+		/* CSS for the buttons */
+		#btn-group {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			z-index: 9999;
+		}
+		.btn {
+			margin: 5px;
+			padding: 10px 15px;
+			border-radius: 5px;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.btn-1 {background-color: #ff9800;}
+		.btn-2 {background-color: #4CAF50;}
+		.btn-3 {background-color: #2196F3;}
+		.btn-4 {background-color: #9C27B0;}
+		.btn-5 {background-color: #607D8B;}
+	</style>
+</head>
+<body>
 
+	
+	<div id="btn-group">
+		<button class="btn btn-1" onclick="changeColor()">Change Color</button>
+		<button class="btn btn-2" onclick="showAlert()">Show Alert</button>
+		<button class="btn btn-3" onclick="addContent()">Add Content</button>
+		<button class="btn btn-4" onclick="toggleTable()">Toggle Table</button>
+		<button class="btn btn-5" onclick="closeTab()">Close Tab</button>
+	</div>
+
+	<table id="myTable" style="display: none;">
+		<tr>
+			<td>Table cell 1</td>
+			<td>Table cell 2</td>
+		</tr>
+		<tr>
+			<td>Table cell 3</td>
+			<td>Table cell 4</td>
+		</tr>
+	</table>
+
+	<script>
+		// JavaScript functions for the button actions
+		function changeColor() {
+			document.body.style.backgroundColor = "#f44336";
+		}
+
+		function showAlert() {
+			alert("This is an alert message.");
+		}
+
+		function addContent() {
+			var testDiv = document.getElementById("test");
+			testDiv.innerHTML += "<p>This is additional content.</p>";
+		}
+
+		function toggleTable() {
+			var table = document.getElementById("myTable");
+			if (table.style.display === "none") {
+				table.style.display = "table";
+			} else {
+				table.style.display = "none";
+			}
+		}
+
+		function closeTab() {
+			window.close();
+		}
+	</script>
 </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 buttons</title>
+	<style>
+		/* CSS for the buttons */
+		#btn-group {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			z-index: 9999;
+		}
+		.btn {
+			margin: 5px;
+			padding: 10px 15px;
+			border-radius: 5px;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.btn-1 {background-color: #ff9800;}
+		.btn-2 {background-color: #4CAF50;}
+		.btn-3 {background-color: #2196F3;}
+		.btn-4 {background-color: #9C27B0;}
+		.btn-5 {background-color: #607D8B;}
+	</style>
+</head>
+<body>
+
+	
+	<div id="btn-group">
+		<button class="btn btn-1" onclick="changeColor()">Change Color</button>
+		<button class="btn btn-2" onclick="showAlert()">Show Alert</button>
+		<button class="btn btn-3" onclick="addContent()">Add Content</button>
+		<button class="btn btn-4" onclick="toggleTable()">Toggle Table</button>
+		<button class="btn btn-5" onclick="closeTab()">Close Tab</button>
+	</div>
+
+	<table id="myTable" style="display: none;">
+		<tr>
+			<td>Table cell 1</td>
+			<td>Table cell 2</td>
+		</tr>
+		<tr>
+			<td>Table cell 3</td>
+			<td>Table cell 4</td>
+		</tr>
+	</table>
+
+	<script>
+		// JavaScript functions for the button actions
+		function changeColor() {
+			document.body.style.backgroundColor = "#f44336";
+		}
+
+		function showAlert() {
+			alert("This is an alert message.");
+		}
+
+		function addContent() {
+			var testDiv = document.getElementById("test");
+			testDiv.innerHTML += "<p>This is additional content.</p>";
+		}
+
+		function toggleTable() {
+			var table = document.getElementById("myTable");
+			if (table.style.display === "none") {
+				table.style.display = "table";
+			} else {
+				table.style.display = "none";
+			}
+		}
+
+		function closeTab() {
+			window.close();
+		}
+	</script>
+</body>
+</html>
+
+
 </html>
