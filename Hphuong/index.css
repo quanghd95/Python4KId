@@ -1,30 +1,92 @@
-        head {
-            background: rgba(255, 232, 214, 0.2);
-            margin-top: 80px;
-            margin-bottom: 100px;
-            margin-right: 150px;
-            margin-left: 150px;
-           }
-          body {
-            background: rgba(255, 232, 214, 0.2);
-            margin-top: 100px;
-            margin-bottom: 100px;
-            margin-right: 250px;
-            margin-left: 250px;
+/* Set global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-           }
-          html {
-            color: #3F4238;
-            text-align:center;
-           }
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* Center everything except the img element */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the heading */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+/* Style the paragraph */
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Style the images and center them */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  margin: 20px auto;
+}
+
+/* Style the images to turn gray on hover */
+img:hover {
+  filter: grayscale(0%);
+}
 
 
-          img {
-            margin-top: 30px;
-            margin-bottom: 30px;
-            margin-right: 100px;
-            margin-left: 50px;
-            outline: #6B705C solid 10px;
-           }
+#theme-toggle-btn{
 
-        
+  bottom: 300px;
+  right: 306px;
+  width: 300px;
+  border: 3px solid #ad1515;    
+}
+
+#arlarm-btn{
+
+  bottom: 306px;
+  right: 1206px;
+  width: 300px;
+  border: 3px solid #1b3375;    
+}
+
+#add-innerHTML-btn{
+
+  bottom: 606px;
+  right: 606px;
+  width: 306px;
+  border: 3px solid #000000;    
+}
+
+.table-toggle-btn{
+
+  bottom: 906px;
+  right: 906px;
+  width: 300px;
+  border: 3px solid #6a994b;     
+}
+
+#close-btn{
+
+  bottom: 606px;
+  right: 1206px;
+  width: 300px;
+  border: 3px solid #b5d854;   
+}
+     
