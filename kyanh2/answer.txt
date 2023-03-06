@@ -1,0 +1,1 @@
+A web browser allows you to get to any website on the internet. The browser retrieves information from parts of the webs and display it on your desktop or mobile device. HTTP is The Hyptertext Transfer Protocol. HTTP fetches resrouces such as HTML and documents.
